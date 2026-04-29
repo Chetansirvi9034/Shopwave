@@ -13,39 +13,11 @@ A full-stack e-commerce store with a premium dark UI, product filtering, cart, a
 ```
 Double-click start.bat
 ```
-
-**Mac / Linux:**
-```bash
-chmod +x start.sh
-./start.sh
-```
-
 Then open **http://localhost:3000** in your browser.
 
----
 
-## 🔧 Manual Setup (if scripts don't work)
-
-Open **two terminals**:
-
-**Terminal 1 — API Server:**
-```bash
-cd server
-npm install
-node index.js
-```
-
-**Terminal 2 — React App:**
-```bash
-cd client
-npm install
-npx vite
-```
-
----
 
 ## 📂 Project Structure
-
 ```
 shopwave/
 ├── server/
@@ -71,7 +43,6 @@ shopwave/
 ```
 
 ## 🌐 API Endpoints
-
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | /api/products | List products (supports `?category=`, `?search=`, `?sort=`, `?maxPrice=`) |
@@ -81,7 +52,6 @@ shopwave/
 | GET | /api/health | Health check |
 
 ## ✨ Features
-
 - 12 products across 7 categories
 - Real-time search + category filter + price range + sort
 - Animated product cards with hover effects
